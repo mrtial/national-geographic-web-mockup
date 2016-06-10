@@ -4,12 +4,12 @@
     .config(function($routeProvider, $locationProvider){
       $routeProvider
         .when('/',{
-          templateUrl:'../views/index.html',
+          templateUrl:'../views/national_geographic/index.html',
           controller:'mainController',
           controllerAs:'vm'
         })
         .when('/news',{
-          templateUrl:'../views/news.html',
+          templateUrl:'../views/national_geographic/news.html',
           controller:'newsController',
           controllerAs:'vm'
         })

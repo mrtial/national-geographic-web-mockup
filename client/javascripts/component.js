@@ -8,7 +8,7 @@
       },
       controller:'navbarController',
       controllerAs:'vm',
-      templateUrl:'../views/navbar.html'
+      templateUrl:'../views/national_geographic/navbar.html'
     })
 
 })()
