@@ -1,0 +1,17 @@
+<div class="indexContainer">
+
+  <header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate repellat aperiam, suscipit, quas est aliquid totam consectetur. Voluptatum, fugiat illum et facilis rerum ut modi, libero quis nihil distinctio ab.</p>
+  </header>
+
+  <h3>NEWS</h3>
+
+  <section>
+    <div class="post" ng-repeat="post in vm.allPost">
+      <img src="{{post.img}}">
+      <h5>post title: {{post.title}}</h5>
+      <p>{{post.content}}</p>
+    </div>
+  </section>
+
+</div>

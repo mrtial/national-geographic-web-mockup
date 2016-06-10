@@ -1,0 +1,85 @@
+body{
+  /*height: 100%;*/
+  background-color: #F2F2F2;
+  font-family: 'Hind', sans-serif;
+  font-weight: 300;
+}
+
+body{
+  background-size: cover;
+  background-image: url("../resources/bg1.jpg");
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  position: relative;
+  width: 300px;
+  display: inline-block;
+  display: block;
+  margin:auto;
+  margin-top: 5%;
+  background-color: white;
+  opacity: 0.6;
+}
+
+.container h1{
+  color:black;
+}
+
+.ngLogo{
+  width: 40px;
+  height: 60px;
+  border: 8px solid #FFD801;
+  background:transparent; 
+  margin:auto;
+  margin-top: 5%;
+}
+
+.userLogin{
+  /*border: 2px solid blue;*/
+  text-align: center;
+  margin-top:40px;
+}
+
+#btn1{
+  width: 70%;
+  height: 35px;
+  margin:20px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+
+#btn2{
+  width:70%;
+  height: 35px;
+  margin:20px;
+  background-color: #FFD801;
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+
+input{
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  border-bottom: 2px solid #E8E8E8;
+  width: 70%;
+  height: 30px;
+  margin:5px;
+}
+
+.link{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
